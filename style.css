@@ -37,10 +37,13 @@ body {
 }
 .date {
   display: flex;
+  font-family: "Nova Square";
   font-size: 5em;
   color: #cf147b;
-  font-family: "Fredericka the Great";
-  text-shadow: 0 0 15px #cf147b, 0 0 30px #cf147b, 0 0 60px #cf147b,
-    0 0 120px #cf147b;
+  text-shadow: 0 0 15px #000000, 0 0 30px #cf147b, 0 0 60px #cf147b,
+    0 0 120px #000000;
   padding: 40px 60px;
+}
+
+media (max-width: 768px) {
 }
